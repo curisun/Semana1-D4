@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* inicio cabecera*/
+.cabecera{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 50px;
+}
+.cabecera_h1{
+        margin-left: 10px;
+        float: left;
+        padding: 10px;
+        align-items: center;
+}
+.cabecera_h2{
+    align-items: center;
+    margin-right: 20px;
+    float: right;
+    padding: 10px;
+}
+/* fin cabecera*/
+
+/* inicio section1*/
+.section1{
+    background-color: rgb(164, 68, 153);
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bloque_izq {
+    background-color: aliceblue;
+    width: 40%;
+    padding: 1% 1%;
+    margin-right: 20px;
+    margin-bottom: 50%;
+}
+.bloque_izq img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.bloque_der{
+    background-color: aliceblue;
+    width: 50%;
+    height: 35%;
+    margin-bottom: 50%;
+}
+.tit_der{
+    background-color: gray;
+    padding: 10px;
+
+}
+.parr_der{
+    padding: 10px;
+}
+/* fin section1*/
+
+/*inicia sección2*/
+.section2{
+    background-color: rgb(164, 68, 153);
+    width: 70%;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 400px;
+}
+
+.bloque{
+    background-color: aliceblue;
+    width: 25%;
+    height: 490px;
+    display: inline-block;
+    margin-inline: 10px;
+    margin-bottom: 130%;
+
+}
+
+h3{
+    background-color: gray;
+}
+h4{
+    background-color: gray;
+}
+.b1 img{
+    width: 100%;
+}
+.b2{
+    width: 100%;
+    height: 40px;
+}
+.b2 img{
+    object-fit: cover;
+    height: 100%;
+    margin: 3px;
+}
+/*finaliza sección2*/
+
+/* inicia seccion3*/
+.section3{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -800px;
+}
+.footer {
+    width: 100%;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+.footer img {
+    object-fit: cover;
+    height: 100%;
+
+}
+
+/* finaliza seccion3*/
